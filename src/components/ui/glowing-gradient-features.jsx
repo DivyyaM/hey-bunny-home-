@@ -1,54 +1,53 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Smartphone, Zap, Sliders, Calendar, BarChart3, Shield, MessageSquare } from 'lucide-react'
+import { Brain, Zap, BarChart3, Search, TestTube, MessageSquare, Sparkles, Cpu } from 'lucide-react'
 import SparklesText from '../magicui/SparklesText'
 import {BorderBeam} from '../magicui/BorderBeam'
-// import {HyperText} from '../magicui/HyperText'
 import {LetterPullup} from '../magicui/LetterPullUp'
 
 const features = [
   {
-    icon: Smartphone,
-    title: 'Responsive Design',
-    description: 'Seamless user experience optimized for mobile and desktop devices.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    icon: Brain,
+    title: 'In-Browser ML/NLP',
+    description: 'Real sentiment analysis, semantic search, and zero-shot classification running entirely in your browser with transformers.js.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/dashboard/playground'
   },
   {
     icon: Zap,
-    title: 'AI-Driven Content Creation',
-    description: 'Generate stunning images and engaging captions powered by AI.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    title: 'AI Content Generation',
+    description: 'Generate engaging social media captions with AI-powered keyword extraction and engagement prediction.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/post-generator'
   },
   {
-    icon: Sliders,
-    title: 'Customizable Content',
-    description: 'Personalize your posts with options for style, tone, and image enhancements.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    icon: TestTube,
+    title: 'A/B Testing Framework',
+    description: 'Built-in A/B testing with user group assignment and analytics to optimize your content strategy.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/dashboard/analytics'
   },
   {
-    icon: Calendar,
-    title: 'Multi-Platform Scheduling',
-    description: 'Easily schedule posts across platforms like Instagram, LinkedIn, and Twitter.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    icon: Search,
+    title: 'Semantic Search',
+    description: 'Find related content by meaning, not just keywords. Powered by MiniLM embeddings.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/post-generator'
   },
   {
     icon: BarChart3,
-    title: 'Performance Analytics',
-    description: 'Get detailed insights into engagement, reach, and audience growth.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    title: 'Analytics Dashboard',
+    description: 'Track user engagement, feature usage, and content performance with real-time analytics.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/dashboard/analytics'
   },
   {
-    icon: MessageSquare,
-    title: 'Rapid Post Publishing',
-    description: 'Create and publish posts with speed and accuracy, saving you time.',
-    link: 'https://hey-bunny-divyyams-projects.vercel.app'
+    icon: Cpu,
+    title: 'Model Playground',
+    description: 'Compare different ML models side-by-side: BERT, compromise, and custom rewriters.',
+    link: 'https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app/dashboard/playground'
   },
 ]
 
 export default function GlowingGradientFeatures() {
   return (
-    <section className="relative overflow-hidden bg-black px-4 sm:px-6 lg:px-8 py-20 mb-25">
+    <section id="features" className="relative overflow-hidden bg-black px-4 sm:px-6 lg:px-8 py-20 mb-25">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZmlsdGVyIGlkPSJub2lzZSI+PGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuNjUiIG51bU9jdGF2ZXM9IjMiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsdGVyPSJ1cmwoI25vaXNlKSIgb3BhY2l0eT0iMC41MCIvPjwvc3ZnPg==')] opacity-20"></div>
       </div>
@@ -96,13 +95,15 @@ export default function GlowingGradientFeatures() {
           transition={{ duration: 0.8 }}
           className="text-4xl font-extrabold text-white sm:text-5xl text-center mb-16 relative z-10"
         >
-          Powerful Features for <span className="text-yellow-400"> <SparklesText text="Social Media Mastery" /> </span> 
+          AI/ML Features for <span className="text-yellow-400"> <SparklesText text="Content Creators" /> </span> 
         </motion.h2>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 relative z-10">
           {features.map((feature, index) => (
             <motion.a
               key={feature.title}
               href={feature.link}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

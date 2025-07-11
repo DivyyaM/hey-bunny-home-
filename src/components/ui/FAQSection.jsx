@@ -5,29 +5,34 @@ import { BackgroundBeams } from "./background-beams";
 
 const faqs = [
   {
-    question: "What is this platform all about? 🤔",
+    question: "What is HeyBunny? 🤔",
     answer:
-      "Our platform helps you streamline your social media game! Schedule posts, track analytics, and automate content like a pro! 📈🚀",
+      "HeyBunny is an AI-powered content generation platform that showcases real in-browser ML/NLP features. It's built with Next.js, React, and transformers.js to demonstrate practical AI implementation for content creators and marketers.",
   },
   {
-    question: "Can I use this on my phone? 📱",
+    question: "What AI/ML features does it include? 🧠",
     answer:
-      "Absolutely! We're mobile-friendly, so you can manage everything on the go. Your content, your rules – anywhere, anytime! 📲",
+      "The platform features sentiment analysis, semantic search, zero-shot classification, keyword extraction (BERT & compromise), engagement prediction, summarization, toxicity detection, and A/B testing - all running in your browser!",
   },
   {
-    question: "How do I schedule posts across multiple platforms? 📅",
+    question: "How does the in-browser ML work? ⚡",
     answer:
-      "Just set it up in our scheduler! Pick your platforms, set the time, and we'll handle the rest – Facebook, Instagram, Twitter? All covered! 🌐",
+      "Using transformers.js, all ML models run directly in your browser without any server-side processing. This means faster performance, no API costs, and complete privacy - your data never leaves your device!",
   },
   {
-    question: "Can I customize my posts? 🎨",
+    question: "What technologies is it built with? 🛠️",
     answer:
-      "Totally! With flexible options, you can adjust each post's design, add emojis, and make it uniquely yours. 🎉",
+      "Next.js 14, React 18, TypeScript, Tailwind CSS, transformers.js, compromise.js, Drizzle ORM, Neon Database, and Clerk for authentication. It's a full-stack modern web application with real ML capabilities.",
   },
   {
-    question: "Is it free to use? 🆓",
+    question: "Is this a portfolio project? 📁",
     answer:
-      "Yes! It's completely free to use! No hidden charges, no credit card required – just sign up and start creating amazing content! 🌟",
+      "Yes! HeyBunny is designed to showcase AI/ML engineering skills, including real ML implementation, production deployment, user analytics, A/B testing, and modern web development practices.",
+  },
+  {
+    question: "Can I try it out? 🚀",
+    answer:
+      "Absolutely! Visit the live demo at hey-bunny-2sav2ofa4-divyyams-projects.vercel.app to explore all the AI features. You can also check out the source code on GitHub to see how everything works!",
   },
 ];
 

@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HeyBunny Home Page 🐰
 
-## Getting Started
+Welcome to the home page for **HeyBunny** - an AI-powered content generation platform that showcases real in-browser ML/NLP features!
 
-First, run the development server:
+## 🚀 Live Demo
+
+**[Try HeyBunny Live Demo](https://hey-bunny-2sav2ofa4-divyyams-projects.vercel.app)**
+
+## 📁 Project Repository
+
+**[View Source Code](https://github.com/DivyyaM/hey-bunny)**
+
+---
+
+## What is HeyBunny?
+
+HeyBunny is a comprehensive AI/ML portfolio project that demonstrates:
+
+- **Real in-browser ML/NLP** using transformers.js
+- **Sentiment analysis, semantic search, zero-shot classification**
+- **A/B testing framework** with user analytics
+- **Model playground** for comparing different ML approaches
+- **Production deployment** on Vercel with real user data
+
+## 🧠 AI/ML Features
+
+- **Sentiment Analysis**: Analyze caption sentiment (positive/negative/neutral)
+- **Semantic Search**: Find related content by meaning using MiniLM embeddings
+- **Zero-Shot Classification**: Assign custom categories to content
+- **Keyword Extraction**: BERT and compromise-based keyword extraction
+- **Engagement Prediction**: Predict content engagement levels
+- **Summarization**: Generate concise summaries of content
+- **Toxicity Detection**: Identify potentially harmful content
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14, React 18, TypeScript, Tailwind CSS
+- **ML/NLP**: transformers.js, compromise.js
+- **Database**: Drizzle ORM, Neon PostgreSQL
+- **Authentication**: Clerk
+- **Deployment**: Vercel
+- **Analytics**: Custom event tracking and A/B testing
+
+## 🎯 Perfect for AI/ML Roles
+
+This project demonstrates:
+- **Practical ML implementation** in production
+- **Full-stack development** with modern tools
+- **User analytics and A/B testing**
+- **Real-world problem solving**
+- **Clean, maintainable code**
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/DivyyaM/hey-bunny-home-.git
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the home page.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📞 Connect
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **LinkedIn**: [Divya Meena](https://www.linkedin.com/in/divyameena/)
+- **GitHub**: [@DivyyaM](https://github.com/DivyyaM)
+- **Instagram**: [@divyaa_1007](https://www.instagram.com/divyaa_1007/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*Built with ❤️ by Divya | AI/ML Portfolio Project*
