@@ -116,7 +116,7 @@ const HeroSection = () => {
 
                    <BoxReveal boxColor={"#5046e6"} duration={1}>
                     <p className="mt-6 tracking-tighter text-white">
-                      <span className="font-sans font-normal text-7xl">Hey, I'm </span>
+                      <span className="font-sans font-normal text-7xl">Hey, I&apos;m </span>
                       <br />
                       <span className="font-serif italic font-normal text-8xl">Bunny..!</span>
                     </p>

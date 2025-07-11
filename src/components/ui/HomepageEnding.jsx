@@ -62,7 +62,7 @@ const HomepageEnding = () => {
             <section className="py-10">
                 <h2 className="text-3xl font-bold text-yellow-400">Connect & Collaborate</h2>
                 <p className="mt-4 mb-6">
-                    Let's discuss AI/ML projects, web development, or just say hello!
+                    Let&apos;s discuss AI/ML projects, web development, or just say hello!
                 </p>
                 <div className="flex justify-center gap-6">
                     <a href="https://www.linkedin.com/in/divyameena/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:text-yellow-300 transition duration-300">
